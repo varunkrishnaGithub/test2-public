@@ -2,7 +2,20 @@
   "environments" : [ {
     "name" : "Dev",
     "environment_id" : "dev",
-    "features" : [ ],
+    "features" : [ {
+      "name" : "activitytracker.default_receiv",
+      "feature_id" : "activitytracker.default_receiv",
+      "type" : "BOOLEAN",
+      "enabled_value" : false,
+      "disabled_value" : false,
+      "segment_rules" : [ ],
+      "collections" : [ {
+        "collection_id" : "c1",
+        "name" : "c1"
+      } ],
+      "enabled" : false,
+      "rollout_percentage" : 100
+    } ],
     "properties" : [ ]
   } ],
   "collections" : [ {
