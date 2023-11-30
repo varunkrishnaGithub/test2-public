@@ -1,0 +1,13 @@
+{
+  "environments" : [ {
+    "name" : "Dev",
+    "environment_id" : "dev",
+    "features" : [ ],
+    "properties" : [ ]
+  } ],
+  "collections" : [ {
+    "name" : "c1",
+    "collection_id" : "c1"
+  } ],
+  "segments" : [ ]
+}
